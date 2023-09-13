@@ -1,25 +1,46 @@
-# WordPress Developer assignment (FE)
+Below, you'll find information on how to access the project's interactive prototype, design specifications, and details about the development environment.
 
-Thanks for your interest in the WordPress developer position at Computan. Please work on the following assignment.
+Interactive Prototype
+You can view the interactive prototype of this project by following this link: Interactive Prototype
 
-Please build a custom HTML structure of cards as shown in design and style it according to the design. 
+Design Specs
+For detailed design specifications, visit: Design Specs
 
-## Prototype
+Development Environment
+This project was built using various tools and technologies, including:
 
-Here you can see the interactivity required:
+SCSS: We used SCSS for styling the project.
+GULP: Gulp was used to automate tasks like compiling SCSS, minifying CSS and JavaScript, optimizing images, and more.
+JavaScript: JavaScript was used for adding interactivity to the project.
+Gulp Tasks
+We have defined several Gulp tasks to streamline the development workflow:
 
-https://www.figma.com/proto/vVYmrccqu2PWb4vonfLQzP/Exercise-for-Developers-(Read-Only)?node-id=11943-32207&scaling=min-zoom&page-id=11935%3A46809&starting-point-node-id=11943%3A32207
+compilescss: Compiles SCSS files, adds vendor prefixes, and minifies CSS files.
+jsmin: Minifies JavaScript files.
+optimizeimg: Optimizes images using MozJPEG and OptiPNG.
+webpImage: Creates WebP versions of images.
+copyFonts: Copies fonts from the source to the distribution folder.
+watchTask: Watches for changes in SCSS, JavaScript, images, and fonts and runs the corresponding tasks automatically.
+To run these tasks, you can use the following command:
 
-## Design specs
-https://www.figma.com/file/vVYmrccqu2PWb4vonfLQzP/Exercise-for-Developers-(Read-Only)?node-id=12857%3A44736&t=R1FYKASalGsB1Rdn-1
+bash
+Copy code
+npm install gulp -g
+npm install
+gulp
+JavaScript Functions
+We've included JavaScript functions for interactive features:
 
-## Notes
-- You will need to create a file called observations.txt which will have your notes and questions about this evaluation test. Please include estimated time to do this assignment and actual time spent to do this assignment.
-- To submit your code/work to us for review, please push the code to the GitHub repo that we provided access to it. Follow the usual workflow of: feature branch (*prefix with your initials and then feature name*) - PR -> develop branch - PR -> main branch. If develop branch is not created already, create it.
-- For demo popup use custom JavaScript and not Bootstrap modal. The popup appears whenever you click on a Learn More link.
-- Please use your best judgement to style it on all devices so it look good on all devices.
-- Follow mobile-first approach.
-- To be able to access the design specs, you will need to create your own *free* Figma account first. You don't need an invitation from us to access it, you just need a Figma account.
-- For the purposes of the test, you will submit your work in the form of HTML and SCSS and CSS and JavaScript, however, actual tasks you would be building on WordPress.
-- Please use SCSS for the styles and gulp to compile to CSS and JavaScript and minify it.
-- Filename should be index.html.
+setupHoverEffects: Adds hover effects to specific elements when the mouse is over them.
+openPopupButtons: Opens a popup when specific buttons are clicked.
+closePopupBtn: Closes the popup when a close button is clicked.
+These functions are executed when the page is fully loaded.
+
+Feel free to explore the code and assets to get a better understanding of the project's structure and functionality.
+
+For any questions or issues, please don't hesitate to reach out to the project team.
+
+
+
+
+
