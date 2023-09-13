@@ -1,0 +1,64 @@
+@import "variables";
+@import "fonts";
+/* Capabilities */
+.capabilities__main {
+  padding: 11rem 4rem 0 4rem;
+
+  .capabilities__content {
+    max-width: 83%;
+    margin: auto;
+    display: flex;
+
+    .capabilities__box {
+      width: 50%;
+
+      &--right {
+        padding-left: 1.3rem;
+      }
+    }
+
+    .capabilities__heading {
+      letter-spacing: 0.05rem;
+      text-align: left;
+
+      &--primary {
+        color: $color-blue;
+        font-family: "Klavika", sans-serif;
+        font-size: 1.4rem;
+        line-height: 3rem;
+        text-transform: uppercase;
+      }
+
+      &--secondary {
+        color: $color-orange;
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+        padding-top: 0.5rem;
+        font-family: "Klavika-bold", sans-serif;
+      }
+    }
+
+    .capabilities__paragraph {
+      color: $color-blackish;
+      font-size: 1.6rem;
+      font-family: "Nunito", sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.05rem;
+      line-height: 2.2rem;
+      padding-top: 3.2rem;
+    }
+
+    .btn {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      padding-top: 2.2rem;
+      font-family: "Klavika-bold", sans-serif;
+      font-weight: 600;
+      color: $color-orange;
+      font-size: 1.6rem;
+    }
+  }
+}

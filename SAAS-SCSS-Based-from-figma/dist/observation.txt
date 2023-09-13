@@ -1,0 +1,33 @@
+
+
+**Estimated Time**: 7 hours
+**Actual Time Spent**: 11 hours
+
+**Observations and Notes**:
+
+1. **Initial Setup**: Getting the project started, which involved installing necessary npm packages and configuring Gulp, took a bit longer than I thought. There were some complexities with Gulp dependencies, like 'gulp-sass' and 'gulp-terser,' as they needed additional setup, especially because 'gulp-sass' doesn't come with a default compiler anymore, and we had to install the 'sass' package.
+
+2. **Styling**: Converting the provided CSS into SCSS wasn't too difficult, but I noticed that some styles appeared to be missing or there were differences between the SCSS and CSS files provided. To ensure consistency and functionality, I had to make some adjustments, which added to the time.
+
+3. **Media Queries**: Transforming media queries from CSS to SCSS required a substantial amount of time. It was essential to ensure that styles adapted properly to different screen sizes, following the mobile-first approach.
+
+4. **Font Imports**: The original CSS had font-face declarations that needed to be translated into SCSS. The conversion itself was straightforward, but ensuring that the fonts loaded correctly took some testing and tweaking.
+
+5. **JavaScript**: Creating custom JavaScript for the popup modal and making sure it worked well on all types of devices consumed a significant amount of time. Writing JavaScript for the "Learn More" links and handling popups demanded careful thought regarding user interactions.
+
+6. **Testing**: Extensive testing was vital to ensure that the webpage looked good and functioned correctly on different devices and screen sizes, including mobiles, tablets, and desktops.
+
+7. **Image Optimization**: The optimization of images and implementing webp image conversion added extra time. This step was crucial to enhance webpage loading speed.
+
+8. **GitHub Workflow**: Establishing the GitHub repository and adhering to the prescribed workflow took time, including creating feature branches, pull requests, and merging changes.
+
+9. **Overall Styling**: Some aspects of the original design specifications seemed unclear or missing. I had to rely on my judgment to ensure that the webpage appeared well on all devices and adhered to the mobile-first approach.
+
+10. **Finalization**: Ensuring that all files were correctly organized, adding comments for clarity, and preparing the project for submission took additional time.
+
+**Overall**: This task was comprehensive and required a keen eye for detail to ensure that the webpage met the provided design specs and functioned correctly. The actual time exceeded the estimate due to unanticipated challenges
+ during project setup and the need to resolve styling and functionality issues.
+
+**Submission**: The code and files have been pushed to the GitHub repository as per the provided instructions. The main branch contains the final code ready for review.
+
+---

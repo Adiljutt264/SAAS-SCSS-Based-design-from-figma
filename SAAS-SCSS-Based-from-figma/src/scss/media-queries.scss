@@ -1,0 +1,112 @@
+@import 'variables'; 
+@import 'fonts';
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 90%; /* Increase font size for very large screens */
+  }
+}
+@media (min-width: 1250px) and (max-width: 1600px) {
+  html {
+    font-size: 62.5%; /* Adjust as needed */
+  }
+}
+@media (min-width: 1100px) and (max-width: 1250px) {
+  html {
+    font-size: 62.5%; /* Adjust as needed */
+  }
+  .cards__wraper{
+    padding-left: 3rem;
+    box-shadow: 0px 8px 24px 0px #191A1B1A;
+  }
+  .cards .cards__flex{
+    box-shadow: none;
+  }
+}
+
+/* Medium Screens  */
+@media (min-width: 768px) and (max-width: 1100px) {
+  html {
+    font-size: 60%; /* Adjust as needed */
+  }
+  .cards__child-first, .cards__child-second, .cards__child-third, .cards__child-fourth{
+    width: 50% !important;
+    margin: auto !important;
+    margin-bottom: 2rem !important;
+  }
+  .cards__child-fifth{
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 2rem !important;
+  clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 0% 0%);
+  }
+  .cards__child-fifth:hover{
+    background-image: url(img/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .cards .cards__flex{
+    box-shadow: none;
+  }
+}
+
+/* Small Screens (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  html {
+    font-size: 50%; /* Adjust as needed */
+  }
+  .cards__child-first, .cards__child-second, .cards__child-third, .cards__child-fourth {
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 2rem !important;
+  }
+  .cards__child-fifth{
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 2rem;
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 0%);
+  clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 0% 0%);
+  }
+  .cards .cards__flex{
+    box-shadow: none;
+  }
+}
+/* Extra Small Screens (less than 576px) */
+@media (max-width: 575px) {
+  html {
+    font-size: 40%; /* Adjust as needed */
+  }
+  .cards__child-first, .cards__child-second, .cards__child-third, .cards__child-fourth {
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 2rem !important;
+  }
+  .cards__child-fifth{
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 2rem;
+  clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 0% 0%);
+  }
+  .cards .cards__flex{
+    box-shadow: none;
+  }
+  .capabilities__content{
+    max-width: 100% !important;
+    margin: auto !important;
+    display: block !important;
+    padding-left: 2rem !important;
+  }
+  .capabilities__box-right
+{
+    padding-left: 0 !important;
+    width: 100% !important;
+}
+.capabilities__main .capabilities__content .capabilities__box--right{
+  padding-left: 0 !important;
+  width: 100% !important;
+}
+.capabilities__box-left
+{
+    width: 100% !important;
+}
+}

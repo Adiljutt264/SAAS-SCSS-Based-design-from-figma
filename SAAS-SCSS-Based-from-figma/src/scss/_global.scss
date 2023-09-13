@@ -1,0 +1,26 @@
+@import 'variables'; 
+@import 'fonts';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+$color-blue: #2D748E;
+$color-orange: #F2B760;
+$color-blackish: #191A1B;
+$color-grey: #EEF2F8;
+$color-white: #ffffff;
+  
+  // Set the base font size for responsive design
+  html {
+    font-size: 62.5%; // 10px = 1rem
+    // Using 62.5% makes 1rem equal to 10px, which simplifies calculations
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: $color-grey;
+    padding: 0;
+    margin: 0;
+  }
